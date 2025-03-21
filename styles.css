@@ -40,6 +40,16 @@ header {
   letter-spacing: 2px;
 }
 
+@media (max-width: 768px) {
+  .logo h1 {
+    font-size: 1.5rem;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
 .logo img {
   height: 50px;
   margin-right: 15px;
@@ -81,6 +91,7 @@ nav a:hover {
 
 .hero-content {
   max-width: 800px;
+  padding: 0px 10px !important;
 }
 
 .hero h2 {
