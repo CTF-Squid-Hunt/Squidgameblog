@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Squid Game Blog</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <h1>Squid Game Blog</h1>
+          </div>
+          <div>
+            <a href="#about">About</a>
+            <a href="#characters">Characters</a>
+            <a href="#games">Games</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="hero-content">
+        <h2>Welcome to the World of Squid Game</h2>
+        <p>
+          Explore the fascinating universe of the hit Korean series that took
+          the world by storm. Discover the characters, games, and hidden
+          meanings behind this cultural phenomenon.
+        </p>
+        <a href="#about" class="cta-button">Start Exploring</a>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About the Show</h2>
+          <p>The global phenomenon that redefined survival drama</p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>A Modern Masterpiece</h3>
+            <p>
+              Squid Game is a South Korean survival drama television series
+              created by Hwang Dong-hyuk for Netflix. The series revolves around
+              a contest where 456 players, all of whom are in deep financial
+              hardship, risk their lives to play a series of deadly children's
+              games for the chance to win a ₩45.6 billion prize.
+            </p>
+            <p>
+              Released in 2021, the show quickly became Netflix's most-watched
+              series, attracting more than 142 million member households during
+              its first four weeks, surpassing Bridgerton as the network's
+              most-watched show.
+            </p>
+            <p>
+              The series has been praised for its originality, creativity,
+              acting, visual style, musical score, and commentary on social
+              inequality. It has attracted international attention and won
+              numerous accolades, including the Golden Globe Award for Best
+              Supporting Actor for O Yeong-su.
+            </p>
+          </div>
+          <div class="about-image">
+            <img
+              src="./assets/about.png"
+              alt="Squid Game poster"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="characters">
+      <div class="container">
+        <div class="section-title">
+          <h2>Key Characters</h2>
+          <p>Meet the faces who brought this intense drama to life</p>
+        </div>
+        <div class="character-grid">
+          <div class="character-card">
+            <div
+              class="character-image"
+              style="background-image: url('./assets/456.png')"
+            ></div>
+            <div class="character-info">
+              <h3>Seong Gi-hun (Player 456)</h3>
+              <p>
+                A divorced chauffeur who lives with his mother and struggles
+                with a gambling addiction. He enters the Game to clear his debts
+                and gain custody of his daughter.
+              </p>
+              <a
+                href="#"
+                class="read-more character-modal-trigger"
+                data-character="gi-hun"
+                >Read More</a
+              >
+            </div>
+            <!-- Congratulations Player 456! Your flag: ITCTF{7h!S_1s_70o_eZ} -->
+            <!-- Trust is betrayal, the frontman is watching --------- -->
+            <!-- https://www.new-website.com/ -->
+          </div>
+
+          <div class="character-card">
+            <div
+              class="character-image"
+              style="background-image: url('./assets/218.png')"
+            ></div>
+            <div class="character-info">
+              <h3>Cho Sang-woo (Player 218)</h3>
+              <p>
+                A former head of an investment team at a securities company who
+                is wanted for fraud and embezzlement. He was Gi-hun's childhood
+                friend and a graduate of Seoul National University.
+              </p>
+              <a
+                href="#"
+                class="read-more character-modal-trigger"
+                data-character="sang-woo"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <div class="character-card">
+            <div
+              class="character-image"
+              style="background-image: url('./assets/67.png')"
+            ></div>
+            <div class="character-info">
+              <h3>Kang Sae-byeok (Player 067)</h3>
+              <p>
+                A North Korean defector who enters the Game to pay for a broker
+                to retrieve her family from across the border and buy a house
+                for them to live in together.
+              </p>
+              <a
+                href="#"
+                class="read-more character-modal-trigger"
+                data-character="sae-byeok"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="games">
+      <div class="container">
+        <div class="section-title">
+          <h2>The Deadly Games</h2>
+          <p>Childhood games turned into life-or-death challenges</p>
+        </div>
+        <div class="games-content">
+          <div class="game-item">
+            <div class="game-info">
+              <h3>Red Light, Green Light</h3>
+              <p>
+                The first game in the series, this traditional children's game
+                takes a deadly turn. When the giant robot doll calls "Green
+                Light," players can move toward the finish line. But when she
+                calls "Red Light" and turns around, anyone still moving is
+                immediately eliminated – not just from the game, but from life
+                itself.
+              </p>
+              <p>
+                The doll uses motion sensors to detect movement, and players
+                have just five minutes to cross the finish line. The
+                psychological horror of this game sets the tone for the entire
+                series, as contestants realize the true stakes of the
+                competition.
+              </p>
+            </div>
+            <div class="game-image">
+              <img src="./assets/redlight.png" alt="Red Light, Green Light" />
+            </div>
+          </div>
+
+          <div class="game-item">
+            <div class="game-info">
+              <h3>Honeycomb / Dalgona Candy</h3>
+              <p>
+                In this game, players must cut out a shape from a fragile
+                honeycomb candy using only a needle. The shapes vary in
+                difficulty: umbrella, star, circle, and triangle. If the shape
+                breaks during extraction, the player is eliminated.
+              </p>
+              <p>
+                This game tests precision and patience under extreme pressure.
+                Gi-hun discovers that licking the back of the candy helps melt
+                it slightly, making the task easier – a clever strategy that
+                saves his life.
+              </p>
+            </div>
+            <div class="game-image">
+              <img src="./assets/dalgona.png" alt="Honeycomb Candy" />
+            </div>
+          </div>
+
+          <div class="game-item">
+            <div class="game-info">
+              <h3>Tug of War</h3>
+              <p>
+                Teams of ten face off in a traditional tug-of-war match on
+                elevated platforms. The losing team plummets to their death.
+                This game highlights the importance of strategy over pure
+                strength.
+              </p>
+              <p>
+                Il-nam shares his knowledge: positioning team members
+                alternating left and right for better grip, starting in a
+                leaning position to hold ground, and waiting for the opponent to
+                tire before pulling. Despite being physically weaker, Gi-hun's
+                team overcomes their opponents using these tactics.
+              </p>
+            </div>
+            <div class="game-image">
+              <img src="./assets/tug.png" alt="Tug of War" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 Squid Game Blog. All rights reserved. This is a fan site
+            and is not affiliated with Netflix or the creators of Squid Game.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const modal = document.getElementById("characterModal");
+      const modalContent = document.getElementById("modalContent");
+      const modalTriggers = document.querySelectorAll(
+        ".character-modal-trigger"
+      );
+      const closeModal = document.querySelector(".close-modal");
+
+      const characterData = {
+        "gi-hun": {
+          name: "Seong Gi-hun (Player 456)",
+          image: "/api/placeholder/500/300",
+          description: `<p>Seong Gi-hun, played by Lee Jung-jae, is the main protagonist of Squid Game. A divorced chauffeur with a gambling addiction, Gi-hun lives with his elderly mother and is struggling to support his daughter financially.</p>
+                     <p>Despite his flaws, Gi-hun has a kind heart and strong moral compass that are repeatedly tested throughout the games. He forms alliances with other players, including Oh Il-nam (001), whom he sees as a father figure, and Kang Sae-byeok (067), a North Korean defector.</p>
+                     <p>Gi-hun's character arc is one of the most compelling aspects of the series. As Player 456, the last contestant to join the game, his journey from a desperate man who steals from his mother to a person willing to risk his life for others showcases the central theme of humanity in the face of brutality.</p>
+                     <p>By the end of the series, Gi-hun emerges as the winner but is deeply traumatized by the experience. His refusal to use the prize money for a year demonstrates how the games have fundamentally changed him. In the final scene, he makes a crucial decision that sets up the possibility for a continuation of his story.</p>`,
+        },
+        "sang-woo": {
+          name: "Cho Sang-woo (Player 218)",
+          image: "/api/placeholder/500/300",
+          description: `<p>Cho Sang-woo, played by Park Hae-soo, is Gi-hun's childhood friend and a graduate of Seoul National University's Business School—a fact that is repeatedly mentioned throughout the series. Once the pride of their neighborhood, Sang-woo has fallen from grace after embezzling money from his clients and is now wanted by the police.</p>
+                     <p>Sang-woo represents the darker side of survival, as he becomes increasingly willing to betray others to ensure his own success. His intelligence and strategic thinking make him a formidable player, but also lead him down a path of moral compromise.</p>
+                     <p>His relationship with Gi-hun forms one of the central conflicts of the series. While they share a history and hometown, their approaches to the game couldn't be more different. Sang-woo's pragmatic ruthlessness contrasts sharply with Gi-hun's empathetic approach.</p>
+                     <p>By the final game, Sang-woo has completely embraced the cutthroat nature of the competition, culminating in one of the most emotional and devastating sequences in the entire series.</p>`,
+        },
+        "sae-byeok": {
+          name: "Kang Sae-byeok (Player 067)",
+          image: "/api/placeholder/500/300",
+          description: `<p>Kang Sae-byeok, played by Jung Ho-yeon, is a North Korean defector who participates in the game to afford a broker who can retrieve her family from across the border. Guarded and mistrustful, she initially keeps to herself but gradually forms connections with other players, particularly Gi-hun and Ji-yeong.</p>
+                     <p>Sae-byeok's skills as a pickpocket and her survival instincts make her one of the most capable contestants. Her quiet strength and determination make her a fan favorite character, with her backstory providing some of the most touching moments in the series.</p>
+                     <p>Her growing friendship with Ji-yeong (Player 240) leads to one of the most heart-wrenching scenes in the show during the marbles game, highlighting the human cost of the competition and the genuine connections that can form even in the darkest circumstances.</p>
+                     <p>Sae-byeok's character represents hope and sacrifice, as everything she does is motivated by her desire to reunite with her family and provide a better life for her younger brother.</p>`,
+        },
+        "il-nam": {
+          name: "Oh Il-nam (Player 001)",
+          image: "/api/placeholder/500/300",
+          description: `<p>Oh Il-nam, played by O Yeong-su, initially appears as a harmless, elderly man with a brain tumor who joins the game because he would rather play than wait to die in the outside world. As the oldest player in the game (Player 001), he often seems confused but occasionally shows surprising lucidity and knowledge about the games.</p>
+                     <p>Il-nam forms a special bond with Gi-hun, who looks after him throughout the competition. Their relationship provides some of the most tender moments in the series, particularly during the marbles game where Gi-hun is faced with an impossible moral choice.</p>
+                     <p>In perhaps the most shocking twist of the series, Il-nam is later revealed to be far more than he initially appeared. This revelation fundamentally changes the viewer's understanding of the entire show and raises profound questions about wealth, power, and the nature of the games themselves.</p>
+                     <p>O Yeong-su's performance as Il-nam earned him a Golden Globe Award for Best Supporting Actor, becoming the first Korean actor to win in this category.</p>`,
+        },
+      };
+
+      modalTriggers.forEach((trigger) => {
+        trigger.addEventListener("click", (e) => {
+          e.preventDefault();
+          const character = characterData[e.target.dataset.character];
+
+          if (character) {
+            modalContent.innerHTML = `
+            <h2>${character.name}</h2>
+            <img src="${character.image}" alt="${character.name}" style="max-width: 100%; border-radius: 10px; margin: 20px 0;">
+            <div>${character.description}</div>
+          `;
+
+            modal.style.display = "flex";
+          }
+        });
+      });
+
+      ddEventListener("click", () => {
+        modal.style.display = "none";
+      });
+
+      ide;
+      window.addEventListener("click", (e) => {
+        if (e.target === modal) {
+          modal.style.display = "none";
+        }
+      });
+
+      n;
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          if (!this.classList.contains("character-modal-trigger")) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href");
+            const targetElement = document.querySelector(targetId);
+
+            if (targetElement) {
+              window.scrollTo({
+                top: targetElement.offsetTop - 100,
+                behavior: "smooth",
+              });
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
